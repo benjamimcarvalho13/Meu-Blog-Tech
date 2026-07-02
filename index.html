@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome do Meu Blog</title>
+    <style>
+        /* Estilos básicos apenas para organizar o layout visualmente */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 20px;
+        }
+        main {
+            flex: 3;
+            margin-right: 20px;
+        }
+        aside {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            height: fit-content;
+        }
+        article {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            main {
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nome do Meu Blog</h1>
+        <p>Um subtítulo ou frase de efeito legal sobre o seu conteúdo</p>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Sobre Mim</a>
+        <a href="#">Categorias</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <div class="container">
+        
+        <main>
+            <article>
+                <h2>Título da Sua Primeira Postagem</h2>
+                <p><small>Postado em: 25 de Junho de 2026 | Por: Seu Nome</small></p>
+                <p>Aqui você vai escrever o texto de introdução ou o conteúdo completo do seu primeiro post. Use parágrafos simples para preencher o espaço.</p>
+                <a href="#">Leia mais...</a>
+            </article>
+
+            <article>
+                <h2>Título da Sua Segunda Postagem</h2>
+                <p><small>Postado em: 24 de Junho de 2026 | Por: Seu Nome</small></p>
+                <p>Aqui fica o texto da sua segunda postagem. Você pode duplicar essa estrutura de "article" sempre que quiser criar um post novo.</p>
+                <a href="#">Leia mais...</a>
+            </article>
+        </main>
+
+        <aside>
+            <h3>Sobre o Autor</h3>
+            <p>Escreva um breve texto sobre você, suas paixões e o que os leitores vão encontrar aqui no blog.</p>
+            
+            <h3>Redes Sociais</h3>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">YouTube</a></li>
+                <li><a href="#">TikTok</a></li>
+            </ul>
+        </aside>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Nome do Meu Blog. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
